@@ -1,10 +1,11 @@
 def main(s):
     """
     A variable of type str is given. make sure all letters are lowercase.
-    Args:
+    Args:str tipidagi o'zgaruvchi berilgan. barcha harflar kichik ekanligiga ishonch hosil qiling.
         s: str
     Returns:
         bool: answer
     """
     
-    return
+    return str(s).islower()
+print(main('xjsnxjnsckjn'))
